@@ -23,6 +23,10 @@
 #include <memory>
 
 
+#pragma GCC diagnostic warning "-Wdeprecated-declarations"
+
+
+
 //------------------------------------
 // The first part of the name of the selection decides in which file it is stored eg:
 // MuonBTagSelection --> LeptonSelectionMods
